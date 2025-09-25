@@ -923,12 +923,12 @@ export default function PCombiOptionFilter() {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* ✅ 배경 이미지 (옵션형 필터링 조합 전용 이미지 필요) */}
+      {/* ✅ 배경 이미지 (옵션형 필터링 조합 전용 이미지 필요) 
       <Image
         source={require("../../../../assets/images/p_member/combination/p_my_combination_option_filter.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ my 버튼 (x10, y85, w200, h100) */}
       <TouchableOpacity

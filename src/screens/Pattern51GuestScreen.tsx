@@ -117,12 +117,12 @@ export default function Pattern51GuestScreen() {
 
   return (
     <View style={styles.container}>
-      {/* ✅ 배경 이미지 */}
+      {/* ✅ 배경 이미지 
       <Image 
         source={require('../../assets/images/pages/patterns/pattern51_guest.png')} 
         style={styles.backgroundImage}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 이전 버튼 */}
       <TouchableOpacity 

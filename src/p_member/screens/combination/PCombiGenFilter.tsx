@@ -334,12 +334,12 @@ export default function PCombiGenFilter() {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* ✅ 배경 이미지 */}
+      {/* ✅ 배경 이미지 
       <Image
         source={require("../../../../assets/images/p_member/combination/p_my_combination_general_filter.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ my 버튼 (x10, y85, w200, h100) - 옵션형과 동일 */}
       <TouchableOpacity

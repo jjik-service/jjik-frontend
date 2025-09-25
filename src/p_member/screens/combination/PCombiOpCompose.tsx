@@ -924,12 +924,12 @@ export default function PCombiOptionCompose() {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* ✅ 배경 이미지 (옵션형 합성 조합 전용 이미지 필요) */}
+      {/* ✅ 배경 이미지 (옵션형 합성 조합 전용 이미지 필요) 
       <Image
         source={require("../../../../assets/images/p_member/combination/p_my_combination_option_compose.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ my 버튼 (x10, y10, w200, h80) */}
       <TouchableOpacity

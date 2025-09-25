@@ -155,12 +155,12 @@ export default function Patterns46to55GuestScreen() {
 
   return (
     <View style={styles.container}>
-      {/* 배경 이미지 */}
+      {/* 배경 이미지 
       <Image
         source={require("../../assets/images/pages/patterns/patterns_46_55_guest.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 찍 로고 버튼 */}
       <TouchableOpacity 

@@ -198,12 +198,12 @@ const PMyGenNumberScreen: React.FC = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* 배경 이미지 */}
+      {/* 배경 이미지 
       <Image
-        source={require('../../../../assets/images/p_member/mypage/p_my_generate_number_ex.png')}
+        source={require('../../../../../assets/images/p_member/mypage/p_my_generate_number_ex.png')}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* my 버튼 영역 */}
       <TouchableOpacity

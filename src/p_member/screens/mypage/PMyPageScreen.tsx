@@ -206,12 +206,12 @@ const PMyPageScreen: React.FC = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* 배경 이미지 */}
+      {/* 배경 이미지 
       <Image
-        source={require('../../../../assets/images/p_member/mypage/p_mypage.png')}
+        source={require('../../../../../assets/images/p_member/mypage/p_mypage.png')}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* 찍로고 버튼 (상단 좌측) */}
       <TouchableOpacity

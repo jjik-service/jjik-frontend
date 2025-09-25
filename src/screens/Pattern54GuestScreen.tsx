@@ -135,12 +135,12 @@ export default function Pattern54GuestScreen() {
 
   return (
     <View style={styles.container}>
-      {/* ✅ 배경 이미지 */}
+      {/* ✅ 배경 이미지 
       <Image 
         source={require('../../assets/images/pages/patterns/pattern54_guest.png')} 
         style={styles.backgroundImage}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 이전 버튼 (53번과 완전히 동일) */}
       <TouchableOpacity 

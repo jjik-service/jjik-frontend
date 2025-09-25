@@ -33,12 +33,12 @@ export default function Info2GuestScreen() {
 
   return (
     <View style={styles.container}>
-      {/* 배경 이미지 */}
+      {/* 배경 이미지 
       <Image
         source={require("../../../../assets/images/p_member/info/p_info2.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* <<이전 버튼 (x0 y24 w175 h80) */}
       <TouchableOpacity 

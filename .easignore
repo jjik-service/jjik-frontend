@@ -1,0 +1,8 @@
+node_modules/
+.git/
+.expo/
+dist/
+*.log
+__tests__/
+.vscode/
+.DS_Store

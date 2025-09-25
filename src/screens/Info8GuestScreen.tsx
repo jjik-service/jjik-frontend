@@ -53,12 +53,12 @@ export default function Info8GuestScreen() {
 
   return (
     <View style={styles.container}>
-      {/* 배경 이미지 */}
+      {/* 배경 이미지 
       <Image
         source={require("../../assets/images/pages/info/info8_guest.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* 찍 로고 버튼 (x10 y10 w120 h120) - 좌측 */}
       <TouchableOpacity

@@ -53,12 +53,12 @@ export default function Info6GuestScreen() {
 
   return (
     <View style={styles.container}>
-      {/* 배경 이미지 */}
+      {/* 배경 이미지 
       <Image
         source={require("../../assets/images/pages/info/info6_guest.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* <<이전 버튼 (x0 y24 w175 h80) */}
       <TouchableOpacity

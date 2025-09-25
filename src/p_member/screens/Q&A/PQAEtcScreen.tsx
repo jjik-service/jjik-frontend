@@ -47,12 +47,12 @@ export default function QAEtcGuestScreen() {
 
   return (
     <View style={styles.container}>
-      {/* ✅ 배경 이미지 */}
+      {/* ✅ 배경 이미지 
       <Image
         source={require("../../../../assets/images/p_member/Q&A/p_Q&A_other.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 찍 로고 버튼 */}
       <TouchableOpacity

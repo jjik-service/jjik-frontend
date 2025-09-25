@@ -197,12 +197,12 @@ export default function POptionPatterns1to5Screen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* ✅ 배경 이미지 */}
+      {/* ✅ 배경 이미지 
       <Image
-        source={require("../../../../assets/images/p_member/o_patterns/p_1_5_op_patterns.png")}
+        source={require("../../../../../assets/images/p_member/o_patterns/p_1_5_op_patterns.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 광고 중이 아닐 때만 모든 UI 요소들 렌더링 */}
       {!showAdModal && (

@@ -110,12 +110,12 @@ export default function POptionPatterns16to20Screen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* ✅ 배경 이미지 */}
+      {/* ✅ 배경 이미지 
       <Image
-        source={require("../../../../assets/images/p_member/o_patterns/p_16_20_op_patterns.png")}
+        source={require("../../../../../assets/images/p_member/o_patterns/p_16_20_op_patterns.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 이전 버튼 (x15, y60, w150, h80) */}
       <TouchableOpacity

@@ -204,12 +204,12 @@ export default function MainGuest() {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* ✅ 배경 이미지 경로: assets/images/pages/home_guestuser.png */}
+      {/* ✅ 배경 이미지 경로: assets/images/pages/home_guestuser.png 
       <Image
         source={require("../../assets/images/pages/home_guestuser.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 회원가입 버튼 */}
       <TouchableOpacity

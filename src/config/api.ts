@@ -1,19 +1,12 @@
 // src/config/api.ts
 // JJIK 백엔드 API 설정
 
-// 운영 환경
-export const API_BASE_URL = 'https://jjik.kr:8000';
+// 운영 환경 (실서버)
+export const API_BASE_URL = 'https://app.jjik.kr';
 
-// 개발 환경에서는 localhost 사용
-export const DEV_API_BASE_URL = 'http://localhost:8000';
-
-// 현재 환경에 따라 API URL 결정
+// React Native 환경에서 항상 실서버 사용
 export const getApiUrl = () => {
-  // 웹에서 실행 중이고 localhost가 아니면 운영 환경
-  if (typeof window !== 'undefined' && !window.location.hostname.includes('localhost')) {
-    return API_BASE_URL;
-  }
-  return DEV_API_BASE_URL;
+  return API_BASE_URL;
 };
 
 // API 엔드포인트들

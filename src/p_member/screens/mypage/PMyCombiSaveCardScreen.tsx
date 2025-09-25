@@ -495,12 +495,12 @@ export default function PMyCombinationSaveCard() {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* ✅ 배경 이미지 */}
+      {/* ✅ 배경 이미지 
       <Image
-        source={require("../../../../assets/images/p_member/mypage/p_my_combination_save_card_ex.png")}
+        source={require("../../../../../assets/images/p_member/mypage/p_my_combination_save_card_ex.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 찍로고 버튼 (x66, y10, w120, h88) */}
       <TouchableOpacity

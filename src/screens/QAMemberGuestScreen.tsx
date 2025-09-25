@@ -47,12 +47,12 @@ export default function QAMemberGuestScreen() {
 
   return (
     <View style={styles.container}>
-      {/* ✅ 배경 이미지 */}
+      {/* ✅ 배경 이미지 
       <Image
         source={require("../../assets/images/pages/Q&A/Q&A_login_guest.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 찍 로고 버튼 */}
       <TouchableOpacity

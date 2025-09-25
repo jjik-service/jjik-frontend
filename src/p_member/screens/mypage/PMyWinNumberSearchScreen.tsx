@@ -60,11 +60,12 @@ const UpdateModal = ({ visible, onClose }: { visible: boolean; onClose: () => vo
         onPress={onClose} 
         activeOpacity={1}
       >
+        {/*
         <Image
-          source={require('../../../../assets/images/modals/update_message_modal.png')}
+          source={require('../../../../../assets/images/modals/update_message_modal.png')}
           style={styles.modalImage}
           resizeMode="contain"
-        />
+        /> */}
       </TouchableOpacity>
     </TouchableOpacity>
   </Modal>
@@ -191,12 +192,12 @@ const PMyWinNumberSearchScreen: React.FC = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* 배경 이미지 */}
+      {/* 배경 이미지 
       <Image
         source={require('../../../../assets/images/p_member/mypage/p_my_winnumber_search.png')}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
       
       {/* 어두운 오버레이 */}
       <View style={styles.darkOverlay} />

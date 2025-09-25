@@ -440,11 +440,12 @@ const PMyBuyNumberScreen: React.FC = () => {
 
   return (
     <SafeAreaView style={styles.container}>
+      {/*
       <Image
-        source={require('../../../../assets/images/p_member/mypage/p_my_buynumbers_ex.png')}
+        source={require('../../../../../assets/images/p_member/mypage/p_my_buynumbers_ex.png')}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       <TouchableOpacity
         style={[styles.transparentButton, styles.logoButton]}

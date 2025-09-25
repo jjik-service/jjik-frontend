@@ -128,12 +128,12 @@ export default function PCombiHome() {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* ✅ 배경 이미지 */}
+      {/* ✅ 배경 이미지 
       <Image
         source={require("../../../../assets/images/p_member/combination/p_my_combination_home.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 찍로고 버튼 (x153, y82, w70, h70) */}
       <TouchableOpacity

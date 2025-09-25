@@ -1,8 +1,10 @@
 {
   "expo": {
     "name": "jjik-app",
-    "slug": "jjik-app",
+    "slug": "jjik-app", 
     "version": "1.0.0",
+    "runtimeVersion": "52.0.0",  
+    "sdkVersion": "52.0.0",   
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -20,14 +22,19 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.jjik.lotto"  
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-asset",
-      "expo-video"
-    ]
+      "expo-asset"
+     
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4afa1610-294a-484d-aaa2-fd29d5962485"
+      }
+    }
   }
 }

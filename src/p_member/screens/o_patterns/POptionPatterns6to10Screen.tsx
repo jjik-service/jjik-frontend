@@ -179,12 +179,12 @@ export default function POptionPatterns6to10Screen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* ✅ 배경 이미지 */}
+      {/* ✅ 배경 이미지 
       <Image
-        source={require("../../../../assets/images/p_member/o_patterns/p_6_10_op_patterns.png")}
+        source={require("../../../../../assets/images/p_member/o_patterns/p_6_10_op_patterns.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 이전 버튼 (x0, y24, w200, h80) */}
       <TouchableOpacity

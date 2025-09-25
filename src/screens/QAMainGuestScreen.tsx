@@ -57,12 +57,12 @@ export default function QAMainGuestScreen() {
 
   return (
     <View style={styles.container}>
-      {/* ✅ 배경 이미지 */}
+      {/* ✅ 배경 이미지
       <Image
         source={require("../../assets/images/pages/Q&A/Q&A_home_guest.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 찍 로고 버튼 - 피그마 좌표: x10 y10 w120 h120 */}
       <TouchableOpacity

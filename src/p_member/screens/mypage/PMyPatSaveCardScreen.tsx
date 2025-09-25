@@ -554,16 +554,16 @@ const PMyPatSaveCardScreen: React.FC = () => {
   // ✅ 메인 렌더링 부분 - 경로: PMyPatSaveCardScreen.tsx 라인 340-480
   return (
     <SafeAreaView style={styles.container}>
-      {/* ✅ 배경 이미지 - 탭에 따라 스왑 - 경로: PMyPatSaveCardScreen.tsx 라인 345-355 */}
+      {/* ✅ 배경 이미지 - 탭에 따라 스왑 - 경로: PMyPatSaveCardScreen.tsx 라인 345-355 
       <Image
         source={
           activeTab === 'general' 
-            ? require('../../../../assets/images/p_member/mypage/p_my_general_save_card_ex.png')
-            : require('../../../../assets/images/p_member/mypage/p_my_option_save_card_ex.png')
+            ? require('../../../../../assets/images/p_member/mypage/p_my_general_save_card_ex.png')
+            : require('../../../../../assets/images/p_member/mypage/p_my_option_save_card_ex.png')
         }
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 투명 버튼: 찍로고 홈 이동 (좌측 상단) - 경로: PMyPatSaveCardScreen.tsx 라인 355-365 */}
       <TouchableOpacity
