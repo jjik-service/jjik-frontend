@@ -31,7 +31,6 @@ jobs:
       
     - name: Install dependencies
       run: |
-        cd jjik-app
         npm install
         
     - name: Cache Gradle packages
@@ -46,13 +45,11 @@ jobs:
           
     - name: Make gradlew executable
       run: |
-        cd jjik-app
         npx expo prebuild --platform android
         chmod +x android/gradlew
         
     - name: Build Android APK
       run: |
-        cd jjik-app
         npx expo export --platform android
         cd android
         ./gradlew assembleRelease
