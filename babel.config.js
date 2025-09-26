@@ -17,8 +17,8 @@ module.exports = function(api) {
             '@/types': './src/types'
           }
         }
-      ],
-      'react-native-reanimated/plugin', // 이것도 활성화
+      ]
+      // react-native-reanimated/plugin 줄 제거됨
     ],
   };
 };
