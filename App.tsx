@@ -6,63 +6,63 @@ import React from "react";
 import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 // 기존 import들 아래에 추가
-import PremiumNavigator from "./src/navigation/PremiumNavigator";
+//import PremiumNavigator from "./src/navigation/PremiumNavigator";
 
 // ✅ 기본 화면들
 import IntroScreen from "./src/screens/IntroScreen";
 import LoginScreen from "./src/screens/LoginScreen";
-import MainGuest from "./src/screens/MainGuest";
+import GMainHome from "./src/guest/screens/GMainHome";
 import SignUpScreen from "./src/screens/SignUpScreen";
 
 
 // ✅ Info 화면들 (8개)
-//import Info1GuestScreen from "./src/screens/Info1GuestScreen";
-//import Info2GuestScreen from "./src/screens/Info2GuestScreen";
-//import Info3GuestScreen from "./src/screens/Info3GuestScreen";
-//import Info4GuestScreen from "./src/screens/Info4GuestScreen";
-//import Info5GuestScreen from "./src/screens/Info5GuestScreen";
-//import Info6GuestScreen from "./src/screens/Info6GuestScreen";
-//import Info7GuestScreen from "./src/screens/Info7GuestScreen";
-//import Info8GuestScreen from "./src/screens/Info8GuestScreen";
+//import Info1GuestScreen from "./src/guest/screens/info/Info1GuestScreen";
+//import Info2GuestScreen from "./src/guest/screens/info/Info2GuestScreen";
+//import Info3GuestScreen from "./src/guest/screens/info/Info3GuestScreen";
+//import Info4GuestScreen from "./src/guest/screens/info/Info4GuestScreen";
+//import Info5GuestScreen from "./src/guest/screens/info/Info5GuestScreen";
+//import Info6GuestScreen from "./src/guest/screens/info/Info6GuestScreen";
+//import Info7GuestScreen from "./src/guest/screens/info/Info7GuestScreen";
+//import Info8GuestScreen from "./src/guest/screens/info/Info8GuestScreen";
 
 // ✅ Q&A 화면들 (7개)
-//import QAMainGuestScreen from "./src/screens/QAMainGuestScreen";
-//import QAMemberGuestScreen from "./src/screens/QAMemberGuestScreen";
-//import QANumberGenGuestScreen from "./src/screens/QANumberGenGuestScreen";
-//import QAAIStatsGuestScreen from "./src/screens/QAAIStatsGuestScreen";
-//import QAPremiumGuestScreen from "./src/screens/QAPremiumGuestScreen";
-//import QAEtcGuestScreen from "./src/screens/QAEtcGuestScreen";
-//import QAInquiryGuestScreen from "./src/screens/QAInquiryGuestScreen";
+//import QAMainGuestScreen from "./src/guest/screens/Q&A/QAMainGuestScreen";
+//import QAMemberGuestScreen from "./src/guest/screens/Q&A/QAMemberGuestScreen";
+//import QANumberGenGuestScreen from "./src/guest/screens/Q&A/QANumberGenGuestScreen";
+//import QAAIStatsGuestScreen from "./src/guest/screens/Q&A/QAAIStatsGuestScreen";
+//import QAPremiumGuestScreen from "./src/guest/screens/Q&A/QAPremiumGuestScreen";
+//import QAEtcGuestScreen from "./src/guest/screens/Q&A/QAEtcGuestScreen";
+//import QAInquiryGuestScreen from "./src/guest/screens/Q&A/QAInquiryGuestScreen";
 
 // ✅ 패턴 화면들 (6개)
-//import Patterns1to10GuestScreen from "./src/screens/Patterns1to10GuestScreen";
-//import Patterns11to20GuestScreen from "./src/screens/Patterns11to20GuestScreen";
-//import Patterns21to30GuestScreen from "./src/screens/Patterns21to30GuestScreen";
-//import Patterns31to40GuestScreen from "./src/screens/Patterns31to40GuestScreen";
-//import Patterns41to45GuestScreen from "./src/screens/Patterns41to45GuestScreen";
-//import Patterns46to55GuestScreen from "./src/screens/Patterns46to55GuestScreen";
+//import Patterns1to10GuestScreen from "./src/guest/screens/patterns/Patterns1to10GuestScreen";
+//import Patterns11to20GuestScreen from "./src/guest/screens/patterns/Patterns11to20GuestScreen";
+//import Patterns21to30GuestScreen from "./src/guest/screens/patterns/Patterns21to30GuestScreen";
+//import Patterns31to40GuestScreen from "./src/guest/screens/patterns/Patterns31to40GuestScreen";
+//import Patterns41to45GuestScreen from "./src/guest/screens/patterns/Patterns41to45GuestScreen";
+//import Patterns46to55GuestScreen from "./src/guest/screens/patterns/Patterns46to55GuestScreen";
 
 // ✅ 개별 패턴 화면들 (9개)
-//import Pattern47GuestScreen from "./src/screens/Pattern47GuestScreen";
-//import Pattern48GuestScreen from "./src/screens/Pattern48GuestScreen";
-//import Pattern49GuestScreen from "./src/screens/Pattern49GuestScreen";
-//import Pattern50GuestScreen from "./src/screens/Pattern50GuestScreen";
-//import Pattern51GuestScreen from "./src/screens/Pattern51GuestScreen";
-//import Pattern52GuestScreen from "./src/screens/Pattern52GuestScreen";
-//import Pattern53GuestScreen from "./src/screens/Pattern53GuestScreen";
-//import Pattern54GuestScreen from "./src/screens/Pattern54GuestScreen";
-//import Pattern55GuestScreen from "./src/screens/Pattern55GuestScreen";
+//import Pattern47GuestScreen from "./src/guest/screens/patterns/Pattern47GuestScreen";
+//import Pattern48GuestScreen from "./src/guest/screens/patterns/Pattern48GuestScreen";
+//import Pattern49GuestScreen from "./src/guest/screens/patterns/Pattern49GuestScreen";
+//import Pattern50GuestScreen from "./src/guest/screens/patterns/Pattern50GuestScreen";
+//import Pattern51GuestScreen from "./src/guest/screens/patterns/Pattern51GuestScreen";
+//import Pattern52GuestScreen from "./src/guest/screens/patterns/Pattern52GuestScreen";
+//import Pattern53GuestScreen from "./src/guest/screens/patterns/Pattern53GuestScreen";
+//import Pattern54GuestScreen from "./src/guest/screens/patterns/Pattern54GuestScreen";
+//import Pattern55GuestScreen from "./src/guest/screens/patterns/Pattern55GuestScreen";
 
 // ✅ 모달 컴포넌트들
-import AdPlaceholder from "./src/components/AdPlaceholder";
-import NotserviceMessageModal from "./src/components/NotserviceMessageModal";
-import FindIdPasswordModal from "./src/components/FindIdPasswordModal";
-import OpenpageModal from "./src/components/OpenpageModal";
+//import AdPlaceholder from "./src/components/AdPlaceholder";
+//import NotserviceMessageModal from "./src/components/NotserviceMessageModal";
+//import FindIdPasswordModal from "./src/components/FindIdPasswordModal";
+//import OpenpageModal from "./src/components/OpenpageModal";
 
 // ✅ 네비게이션 타입
-import { RootStackParamList } from "./src/types/navigation";
+import { GuestStackParamList } from "./src/types/navigation";
 
-const Stack = createNativeStackNavigator<RootStackParamList>();
+const Stack = createNativeStackNavigator<GuestStackParamList>();
 
 // ✅ JJIK 브랜드 테마
 const JJIKTheme = {
@@ -100,13 +100,13 @@ export default function App() {
         <Stack.Screen name="Login" component={LoginScreen} />
         <Stack.Screen name="SignUp" component={SignUpScreen} />
         <Stack.Screen 
-          name="MainGuest" 
-          component={MainGuest}
+          name="GMainHome" 
+          component={GMainHome}
           options={{ gestureEnabled: false }}
         />
-
+        {/*}
         <Stack.Screen name="PremiumStack" component={PremiumNavigator} />
-
+        */}
         {/* =================== Info 화면들 =================== 
         <Stack.Screen name="Info1Guest" component={Info1GuestScreen} />
         <Stack.Screen name="Info2Guest" component={Info2GuestScreen} />
