@@ -162,12 +162,12 @@ export default function Patterns21to30GuestScreen() {
 
   return (
     <View style={styles.container}>
-      {/* 배경 이미지 */}
+      {/* 배경 이미지 
       <Image
         source={require("../../assets/images/p_member/g_patterns/p_21_30_patterns.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ <<이전 버튼 */}
       <TouchableOpacity 

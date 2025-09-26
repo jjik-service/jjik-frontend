@@ -167,12 +167,12 @@ export default function Patterns1to10GuestScreen() {
 
   return (
     <View style={styles.container}>
-      {/* 배경 이미지 */}
+      {/* 배경 이미지 
       <Image
         source={require("../../assets/images/p_member/g_patterns/p_1_10_patterns.png")}
         style={styles.background}
         resizeMode="contain"
-      />
+      /> */}
 
       {/* ✅ 찍 로고 버튼 */}
       <TouchableOpacity 
