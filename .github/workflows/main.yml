@@ -1,10 +1,7 @@
 name: Build Android APK
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch: {}
 
 jobs:
   build:
@@ -58,4 +55,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: app-release
-        path: jjik-app/android/app/build/outputs/apk/release/app-release.apk
+        path: android/app/build/outputs/apk/release/app-release.apk
