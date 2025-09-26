@@ -50,8 +50,10 @@ export default function IntroScreen() {
       resizeMode="contain"
       onLoad={handleBackgroundLoad}
     >
+      {/*
       {showVideo && (
         <View style={styles.videoContainer}>
+          
           <Video
             source={require("../../assets/videos/intro.mp4")}
             style={styles.video}
@@ -62,7 +64,7 @@ export default function IntroScreen() {
             useNativeControls={false}
           />
         </View>
-      )}
+      )} */}
     </ImageBackground>
   );
 }
