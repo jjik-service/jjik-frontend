@@ -146,7 +146,7 @@ export default function Patterns11to20GuestScreen() {
     <View style={styles.container}>
       {/* 배경 이미지 
       <Image
-        source={require("../../assets/images/pages/patterns/patterns_11_20_guest.png")}
+        source={require("../../../../assets/images/pages/patterns/patterns_11_20_guest.png")}
         style={styles.background}
         resizeMode="contain"
       /> */}

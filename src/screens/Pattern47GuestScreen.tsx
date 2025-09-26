@@ -113,7 +113,7 @@ export default function Pattern47GuestScreen() {
     <View style={styles.container}>
       {/* ✅ 배경 이미지 
       <Image 
-        source={require('../../assets/images/pages/patterns/pattern47_guest.png')} 
+        source={require('../../../../assets/images/pages/patterns/pattern47_guest.png')} 
         style={styles.backgroundImage}
         resizeMode="contain"
       /> */}

@@ -134,7 +134,7 @@ export default function Pattern52GuestScreen() {
     <View style={styles.container}>
       {/* ✅ 배경 이미지 
       <Image 
-        source={require('../../assets/images/pages/patterns/pattern52_guest.png')} 
+        source={require('../../../../assets/images/pages/patterns/pattern52_guest.png')} 
         style={styles.backgroundImage}
         resizeMode="contain"
       /> */}

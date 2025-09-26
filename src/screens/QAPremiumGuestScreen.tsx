@@ -49,7 +49,7 @@ export default function QAPremiumGuestScreen() {
     <View style={styles.container}>
       {/* ✅ 배경 이미지 
       <Image
-        source={require("../../assets/images/pages/Q&A/Q&A_pay_guest.png")}
+        source={require("../../../../assets/images/pages/Q&A/Q&A_pay_guest.png")}
         style={styles.background}
         resizeMode="contain"
       /> */}

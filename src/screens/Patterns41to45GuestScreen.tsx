@@ -170,7 +170,7 @@ export default function Patterns41to45GuestScreen() {
     <View style={styles.container}>
       {/* 배경 이미지 
       <Image
-        source={require("../../assets/images/pages/patterns/patterns_41_45_guest.png")}
+        source={require("../../../../assets/images/pages/patterns/patterns_41_45_guest.png")}
         style={styles.background}
         resizeMode="contain"
       /> */}
