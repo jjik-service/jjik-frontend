@@ -156,7 +156,7 @@ export default function Patterns46to55GuestScreen() {
     <View style={styles.container}>
       {/* 배경 이미지 */}
       <Image
-        source={require("../../../../assets/images/p_member/g_patterns/p_46_55_patterns.png")}
+        source={require("../../assets/images/p_member/g_patterns/p_46_55_patterns.png")}
         style={styles.background}
         resizeMode="contain"
       />
