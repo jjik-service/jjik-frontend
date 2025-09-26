@@ -8,6 +8,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -27,15 +28,7 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
-      "expo-asset",
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "newArchEnabled": false
-          }
-        }
-      ]
+      "expo-asset"
     ],
     "extra": {
       "eas": {
