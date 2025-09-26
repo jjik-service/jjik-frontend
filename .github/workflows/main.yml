@@ -45,14 +45,13 @@ jobs:
         npx expo prebuild --platform android
         chmod +x android/gradlew
         
-    - name: Build Android APK (Debug)
-      run: |
+    - name: Build Android APK
+       run: |
         npx expo export --platform android
         cd android
-        ./gradlew assembleDebug
-        
+        ./gradlew assembleRelease  # Debug → Release로 변경
+
     - name: Upload APK
-      uses: actions/upload-artifact@v4
       with:
-        name: app-debug
-        path: android/app/build/outputs/apk/debug/app-debug.apk
+        name: app-release
+        path: android/app/build/outputs/apk/release/app-release.apk
